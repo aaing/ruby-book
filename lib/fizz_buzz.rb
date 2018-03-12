@@ -1,4 +1,5 @@
 def fizz_buzz
+  puts 'input max num:'
   max = gets.to_i
   str = ''
   for n in 1..max do
